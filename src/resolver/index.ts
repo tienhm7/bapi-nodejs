@@ -1,7 +1,5 @@
-import query from './query';
-import mutation from './mutation';
+import { resolverBook } from 'nodejs-book-modules';
 
 export const resolver = {
-    ...query,
-    ...mutation
+    ...resolverBook,
 };
